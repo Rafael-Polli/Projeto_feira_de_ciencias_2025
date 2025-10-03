@@ -183,7 +183,7 @@ void destrancada(){
   digitalWrite(ledVerde,HIGH);
   digitalWrite(ledVermelho,LOW);
   condicao_pisca_led=false;
-  servo1.write(155);
+  servo1.write(160);
   s1.pass_conclued(1.5);
   //s1.pass_correct(1);
   Serial.println("ABERTA");
